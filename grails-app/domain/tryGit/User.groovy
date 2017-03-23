@@ -15,5 +15,8 @@ class User {
      address blank: false, maxSize: 255
      email email: true
      description blank: false, maxSize: 255
+     country blank: false, maxSize: 255
+     state blank: false, maxSize: 255
+     city blank: false, maxSize: 255
     }
 }
