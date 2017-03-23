@@ -6,8 +6,8 @@ class User {
     String email
 
     static constraints = {
-     name blank: false
-     address blank: false
+     name blank: false, maxSize: 255
+     address blank: false, maxSize: 255
      email email: true
     }
 }
