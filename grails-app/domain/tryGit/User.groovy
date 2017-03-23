@@ -6,6 +6,9 @@ class User {
     String email
     Integer contact
     String description
+    String country
+    String state
+    String city
 
     static constraints = {
      name blank: false, maxSize: 255
